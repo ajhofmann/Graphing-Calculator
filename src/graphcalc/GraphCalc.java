@@ -84,7 +84,7 @@ public class GraphCalc extends JPanel implements ActionListener{
                 + "the title of transformation input form. The dimensions for the "
                 + "graph can be changed in the Graph Dimensions text file", "Help", 
                 JOptionPane.INFORMATION_MESSAGE, null);
-        //creates the list box dialouge to choose parent function
+        //creates the list box dialogue to choose parent function
         JFrame frame = new JFrame();
         GraphCalc input = new GraphCalc();
         parentFunction = (String) JOptionPane.showInputDialog(frame, 
